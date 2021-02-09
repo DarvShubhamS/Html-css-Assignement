@@ -299,6 +299,84 @@ Every element in a html is a box. We can consider all html elements as boxes.
 
 Keeping Box Model In Mind we apply styling to our html pages.
 
+## Q8.What are the different types of CSS Selectors? 
+
+CSS selectors are mainly used to find a particular html element. after selecting that particular html element, we can now apply different styles to it.
+
+We have different CSS selectors some of the most commonly used are: -
+
+•	**Element selector**: we can directly select element by its name. for e.g., we want to select the paragraph element we can just write 
+
+`p {
+// style
+}`
+
+
+•	**Class selector**: if we want to apply styles to different elements at one go , we can use CSS class selectors. They are reusable. We can reuse them with multiple elements. We use “.classname” to select a class.
+<div class=”divstyle”></div>
+
+`.divstyle {
+//styles
+}`
+
+• **Id selector**: - if we want to uniquely select a particular html element. we make use of id selector. For e.g., if we have multiple paragraphs and want to select one id are best way to select it. We use “#idname” to select id element.
+
+`<div><p>some text </p><p id=”p2”>some text2</p></div>`
+
+`#p2 {
+//some styles
+}`
+
+•	**Universal selector**: - this style is applied to all every html element. We use “*” to use universal selector.
+
+`*{
+// some style
+}`
+
+
+## Q9.Define Doctype.
+
+Doctype is basically used to tell the browser about the type of document. it is compulsory to specify the document type. if we don’t specify the type of document some tags or features might not work in our browser.
+To specify doc type we use:-
+
+`<!DOCTYPE>` 
+
+In html 5 pages we should always write `<!DOCTYPE html>`. 
+
+if dont specify many features of html 5 will not work correctly.
+
+
+## Q10.Explain 5 HTML5 semantic tags.
+
+- Sematics Basically adds meaning to our code.Some of the important html 5 semantic tags are:-
+
+1.	**Header**: - header is basically used as a container for different headers like the nav bar.
+
+SYNTAX: `<header></header>`
+
+2.	**Nav**: - nav is basically used as a container for our navigation links. all the navigation links are specified in the nav tag.
+
+SYNTAX: `<nav></nav>`
+
+3.	**Section**: - section tag is used for dividing our page into different sections.it basically defines different sections of our page.
+
+SYNTAX: `<section></section>`
+
+4.	**Article**: - article tag contains elements which are independent and make sense of its own, like the blog post, newspaper article etc.
+
+SYNTAX: `<article></article>`
+
+5.	**Footer**: - as the name suggest it is basically used to define a footer for our html document. it can contain information like copyright info, related links, contact information etc.
+
+SYNTAX: `<footer></footer>`
+
+
+
+
+
+
+
+
 
 
 
